@@ -1,14 +1,9 @@
 import { Application, Request, Response } from "express";
-
-const categories = [
-  { id: 1, name: "Cleaning Products" },
-  { id: 2, name: "Cheeses" },
-  // ... other categories
-];
+import { CategoryController } from "./controllers/categoryController";
 
 export function setRoutes(app: Application) {
+  const categoryController = new CategoryController();
+
   app.get("/", (req, res) => res.send("Hello, Backend Developer!"));
-  app.get("/categories", (req: Request, res: Response) => {
-    res.json(categories);
-  });
+  app.get("/categories", categoryController.getCategories);
 }

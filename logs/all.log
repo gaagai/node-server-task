@@ -19,3 +19,12 @@
 [35m[39m
 2024-01-15 21:33:04:334 [35mhttp[39m: [35mGET /categories 304 - - 1.765 ms[39m
 [35m[39m
+2024-01-15 21:44:43:4443 [35mhttp[39m: [35mGET /categories 304 - - 0.436 ms[39m
+[35m[39m
+2024-01-15 22:01:23:123 [32minfo[39m: [32mServer running on port 3001[39m
+2024-01-15 22:18:44:1844 [32minfo[39m: [32mServer running on port 3001[39m
+2024-01-15 22:22:12:2212 [32minfo[39m: [32mServer running on port 3001[39m
+2024-01-15 22:22:59:2259 [32minfo[39m: [32mServer running on port 3001[39m
+2024-01-15 22:29:38:2938 [32minfo[39m: [32mServer running on port 3001[39m
+2024-01-15 22:30:56:3056 [35mhttp[39m: [35mGET /categories 200 181 - 23.547 ms[39m
+[35m[39m
